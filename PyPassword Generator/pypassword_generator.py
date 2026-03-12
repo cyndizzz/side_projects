@@ -21,4 +21,4 @@ pwd = ''
 for i in final_list:
     pwd += i
 
-print(pwd)
+print(f"Your password: {pwd}")
