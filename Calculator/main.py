@@ -56,5 +56,7 @@ def calculator():
             calculator()
         elif choice.lower() == 'y':
             num1 = num
+        else:
+            exit
 
 calculator()
