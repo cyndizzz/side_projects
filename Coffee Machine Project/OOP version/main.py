@@ -10,7 +10,7 @@ def coffee_machine():
     coffee_maker = CoffeeMaker()
     while is_on:
         options = menu.get_items()
-        choice = input(f"What would you like? {options}: ")
+        choice = input(f"What would you like? ({options}): ")
         if choice == "off":
             is_on = False
             print("Goodbye!")
